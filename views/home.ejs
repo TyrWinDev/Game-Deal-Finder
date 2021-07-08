@@ -1,0 +1,17 @@
+<%- include ("partials/header.ejs") %>
+<main>
+  <section class="website-name">
+    <div><img src="/logo.png" alt="" srcset="" width="90%" height="30%" /></div>
+  </section>
+  <div class="search-container">
+    <form action="/results" method="GET">
+      <input
+        id="search-bar"
+        type="text"
+        name="game_title"
+        placeholder="Enter a PC game title..."
+      />
+    </form>
+  </div>
+</main>
+<%- include ("partials/footer.ejs") %>
